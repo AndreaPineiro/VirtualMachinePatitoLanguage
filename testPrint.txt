@@ -1,0 +1,8 @@
+program prueba;
+
+{
+    cout('hola', 'juan');
+    cout('hola', 'andrea');
+    cout('adios');
+}
+end

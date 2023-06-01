@@ -1,0 +1,19 @@
+program prueba;
+
+var x, y, aux, temp, res: int;
+
+{
+    if (aux != 0){
+        temp = temp * aux;
+        cout("temp * aux", temp);
+
+        if(res > 10){
+            cout("Mayor a 10");
+        }
+    }
+    else {
+        cout("Res 0");
+    };
+    cout("End");
+}
+end

@@ -1,0 +1,15 @@
+program prueba;
+
+var a, b, c: int;
+n: float;
+
+{
+    a = 1;
+    b = 10;
+    do {
+        cout(a * b);
+        a = a + 1;
+    } while (a < b);
+    c = 10;
+}
+end

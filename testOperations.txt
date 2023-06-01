@@ -1,0 +1,26 @@
+program prueba;
+
+var a, b, c, d, e, f, g, h, i, j, k, m: int;
+n: float;
+
+{
+    a = 1;
+    b = 20;
+    c = 30;
+    d = 40;
+    e = 9;
+    f = 17;
+    g = 61;
+    g = 34;
+    i = 3;
+    j = 7;
+    k = 10;
+    cout('OPERACIONES');
+    n = d / b;
+    cout('d / b =', n);
+    n = a * (b + c * d / e);
+    cout('a * (b + c * d / e) =', n);
+    n = f / 0;
+    cout('f / 0 =', n);
+}
+end

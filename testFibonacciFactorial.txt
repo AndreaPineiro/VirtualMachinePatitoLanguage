@@ -1,0 +1,38 @@
+program prueba;
+
+var n_fib, i_fib, temp_fib, a, b, n_fac, i_fac, result: int;
+
+{
+    cout('SECUENCIA DE FIBONACCI HASTA EL 50');
+    n_fib = 50;
+    a = 0;
+    b = 1;
+    cout('Numero 1:', a);
+    cout('Numero 2:',b);
+    i_fib = 2;
+    do {
+        temp_fib = a + b;
+        cout('Numero', i_fib, ':', temp_fib);
+        a = b;
+        b = temp_fib;
+        i_fib = i_fib + 1;
+    } while (i_fib < n_fib);
+
+    cout('-------------------');
+    cout('FACTORIAL DE 20');
+    n_fac = 20;
+    if (n_fac < 1) {
+        cout('El factorial no esta definido para 0.');
+    }
+    else {
+        result = 1;
+        i_fac = 2;
+        do {
+            cout('Iteracion:', i_fac, ':', result);
+            result = result * i_fac;
+            i_fac = i_fac + 1;
+        } while (i_fac < n_fac + 1);
+        cout('Factorial de 20:', result);
+    };
+}
+end

@@ -1,0 +1,27 @@
+program prueba;
+
+var a, b, c, d, e, suma: int;
+
+{
+    a = 1;
+    b = 2;
+    c = 3;
+    d = 0;
+    e = 0;
+    suma = a + b + c + d + e;
+    if (suma > 15) {
+        if (e > 5) {
+            cout ('Suma mayor a 15 y e mayor a 5');
+        }
+        else {
+            cout ('Suma mayor a 15');
+        };
+    }
+    elif (suma > 10) {
+        cout('Suma mayor a 10'); 
+    }
+    else {
+         cout('Suma menor a 10');
+    };
+}
+end
